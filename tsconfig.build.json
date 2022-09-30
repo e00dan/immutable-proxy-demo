@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "strict": true,
+    "target": "ES6",
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "migrations",
+    "scripts",
+    "gen",
+    "cli"
+  ]
+}
